@@ -1,5 +1,5 @@
 import { Bot } from "../../../lib/client.lib";
-
+import { logger } from "../../../lib/logger.lib";
 export default (Discord, client: Bot, __) => {
-	console.log(`${client.user.username} is online!`);
+  logger.success(`${client.user.username} is online!`);
 };
