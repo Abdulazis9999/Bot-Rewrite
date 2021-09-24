@@ -15,7 +15,9 @@ export default async (client: Bot, message: Message) => {
   } catch (e) {
     return;
   }
-
+  if (command.EnableCommand == false) {
+    return message.reply("This Command are disable");
+  }
   const current_time = Date.now();
   client.time_stamps = client.cooldowns.get(command.name);
   client.cooldown_amount = command.cooldown * 1000;

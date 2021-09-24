@@ -6,6 +6,8 @@ import { Colors } from "../../../lib/enums/color.enum";
 export default {
   name: "samp",
   description: "Samp Stats",
+  EnableCommand: true,
+  cooldown: 10,
   aliases: ["sa"],
   runCommands(client: Bot, message: Message, args: string[], cmd: string): void {
     var options = {
