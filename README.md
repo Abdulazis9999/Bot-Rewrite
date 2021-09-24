@@ -9,7 +9,10 @@
 ```c
 yarn start
 ```
- 
+## Get The token discord 
+[LINK](https://discord.com/developers/applications)
+
+
  ## Before config
  * Change .env.schema file Into .env
  
