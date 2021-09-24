@@ -1,2 +1,6 @@
 ﻿# Bot-Rewrite
-[!Original Template](https://github.com/RaZegame/bot-template-ts)
+ 
+ # Refrence
+[Original Template](https://github.com/RaZegame/bot-template-ts)
+[NrafSampBot](https://github.com/NRAF13/SampBotNraf)
+
