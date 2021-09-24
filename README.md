@@ -1,5 +1,11 @@
 ﻿# Bot-Rewrite 👾
  
+ ## Requirments
+ * Nodejs Version 16
+ * Text editor (I use visual studio code)
+ * Token bot
+ 
+ 
  # Setup yarn
  ```c
  npm i -g yarn
@@ -10,7 +16,7 @@
 yarn start
 ```
 ## Get The token discord 
-[LINK](https://discord.com/developers/applications)
+* [LINK](https://discord.com/developers/applications)
 
 
  ## Before config
