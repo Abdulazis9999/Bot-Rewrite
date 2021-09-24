@@ -1,5 +1,5 @@
 import { Client, Intents, Collection } from "discord.js";
-import { command } from "./interfaces";
+import { command } from "./interfaces.lib";
 
 class Bot extends Client {
     commands: Collection<string, command>

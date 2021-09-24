@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { Bot } from '../../lib/client';
+import { Bot } from '../../lib/client.lib';
 export default async (client: Bot, Discord) => {
 	const load_dir = async (dir) => {
 		const event_files = fs

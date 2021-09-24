@@ -1,5 +1,5 @@
 import { Message } from "discord.js";
-import { Bot } from "./client";
+import { Bot } from "./client.lib";
 
 interface command {
   name: string;

@@ -1,6 +1,7 @@
 import { Message, MessageActionRow, MessageButton, MessageEmbed } from "discord.js";
-import { Bot } from "../../../lib/client";
+import { Bot } from "../../../lib/client.lib";
 import samp from "samp-query";
+import { Colors } from "../../../lib/enums/color.enum";
 
 export default {
   name: "samp",
@@ -17,7 +18,7 @@ export default {
         console.log(error);
       } else {
         const embed = new MessageEmbed()
-          .setColor("RANDOM")
+          .setColor(Colors.Info)
           .setThumbnail("https://i.imgur.com/QYeGxrV.png")
           .setAuthor(response["hostname"])
           .addField("Gamemode", `${response["gamemode"]}`)
