@@ -1,5 +1,5 @@
 import { Message, MessageActionRow, MessageButton, MessageEmbed } from "discord.js";
-import { Bot } from "../../../util/client";
+import { Bot } from "../../../lib/client";
 
 export default {
   name: "ping",
